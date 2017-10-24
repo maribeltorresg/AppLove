@@ -71,3 +71,38 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+body {
+  font-family: 'Raleway', sans-serif;
+}
+header {
+  height: 90px;
+  overflow: auto;
+}
+header .menu {
+  display: inline-block;
+  margin: 30px;
+  font-weight: bol;
+}
+header .menu a {
+  margin: 0 15px;
+}
+header .logo img[alt="logo"] {
+  float: right;
+  height: 70px;
+  width: 70px; 
+  position: absolute;
+  right: 5%;
+  top: 40px;
+  transform: translateY(-35px);
+}
+.home {
+  background-image: url(../assets/images/bg-home.jpg);
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+}
+.home .button a {
+  background-color: green;
+  color: white;
+  padding: 5px;
+}
