@@ -75,25 +75,27 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 header {
-  height: 90px;
-  overflow: auto;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 header .menu {
-  display: inline-block;
   margin: 30px;
-  font-weight: bol;
+  font-weight: bold;
 }
 header .menu a {
   margin: 0 15px;
 }
-header .logo img[alt="logo"] {
+header .logo {
+  background: #ff0000;
   float: right;
   height: 70px;
-  width: 70px; 
-  position: absolute;
-  right: 5%;
-  top: 40px;
-  transform: translateY(-35px);
+  width: 70px;
+}
+header .logo img {
+  display: block;
+  width: 100%;
 }
 .home {
   background-image: url(../assets/images/bg-home.jpg);
@@ -102,7 +104,10 @@ header .logo img[alt="logo"] {
   text-align: center;
 }
 .home .button a {
-  background-color: green;
+  background-color: #2Ecc71;
   color: white;
   padding: 5px;
+}
+.services {
+  background-color: #f17c72
 }
