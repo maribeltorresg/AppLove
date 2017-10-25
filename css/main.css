@@ -137,12 +137,46 @@ header .logo img {
 .services h4 {
   font-size: 15px;
 }
+.service {
+  display: inline-block;
+  margin: 0 70px;
+  margin-bottom: 84px;
+}
+.service img {
+  margin: 70px 0 20px;
+  width: 200px;
+}
 .work h2 {
   font-size: 35px;
   margin: 72px 0 30px;
 }
-
-
+.work h4 {
+  margin-bottom: 45px;
+  font-size: 15px;
+}
+.work .big-image {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+.work .box {
+  display: inline-block;
+  margin: 30px;
+  width: 300px;
+}
+.work .box img {
+  display: block;
+  width: 100%;
+}
+.work .proyect-name {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 20px 0 0;
+  text-transform: uppercase;
+}
 footer {
   background-color: #373b47;
+  color: #fff;
+  margin: 80px 0 0;
+  padding: 20px 0;
 }
