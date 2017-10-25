@@ -24,7 +24,7 @@ img {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 14px;
@@ -80,6 +80,7 @@ body {
 header {
   background-color: #fff;
   position: fixed;
+  text-align: left;
   top: 0;
   width: 100%;
 }
