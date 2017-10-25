@@ -1,25 +1,17 @@
 # AppLove
-
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
-
-***
-Para completar tu web **AppLove** hemos creado este repositorio boilerplate (plantilla inicial) con todos los recursos que necesitas. Esto incluye las imágenes y algunas clases CSS que ya hemos creado para ti :)
-
-## Flujo de trabajo: Empieza por realizar un fork y clonar este repositorio
-
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74) de este repositorio
-
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar es `git clone` y su estructura normalmente se ve así:
-
-    ```bash
-    git clone https://github.com/<nombre-de-usuario>/AppLove.git
-    ```
-
 ## Objetivo
 
-El reto consiste en maquetar la web **AppLove**, este es el resultado final:
+Maquetar una web desde una estructura base **Html** y **Css**.
+## Herramientas
+- Html5
+    * Html Semántico
+- Css3
+    * Position (fixed)
+    * Display 
+    
+
+
+## Resultado final:
 
 ![AppLove](https://fotos.subefotos.com/1edc0aab51f1d624da4a24ab86129d87o.png) 
 
